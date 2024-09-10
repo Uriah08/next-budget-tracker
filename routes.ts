@@ -9,4 +9,4 @@ export const authRoutes = [
 
 export const apiAuthPrefix = "/api/route"
 
-export const DEFAULT_LOGIN_REDIRECT = "/"
+export const DEFAULT_LOGIN_REDIRECT = "/startup"

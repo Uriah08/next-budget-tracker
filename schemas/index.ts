@@ -10,3 +10,7 @@ export const registerSchema = z.object({
     email: z.string().email(),
     password: z.string().min(8),
 })
+
+export const currencySchema = z.object({
+    currency: z.string()
+})

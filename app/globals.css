@@ -93,4 +93,19 @@ body {
   body {
     @apply bg-background text-foreground;
   }
+  .bg-theme {
+    @apply bg-light dark:bg-dark
+  }
+  .fg-theme {
+    @apply text-[#7a7a7a] dark:text-[#a8a8a8]
+  }
+  .bg-theme-follow {
+    @apply bg-[#e6e9ee] dark:bg-[#1b1b1b]
+  }
+  .fg-hover {
+    @apply duration-200 transition-all hover:dark:text-[#FFFFFF] hover:text-[#000000]
+  }
+  .fg-theme-max {
+    @apply dark:text-[#FFFFFF] hover:text-[#000000]
+  }
 }
